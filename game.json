@@ -1,0 +1,375 @@
+{
+  "romans": {
+    "regions": [
+      {
+        "region": "default",
+        "roman": "Street Fighter EX3"
+      },
+      {
+        "region": "japan",
+        "roman": "Street Fighter EX3",
+        "original": "ストリートファイターEX3"
+      }
+    ],
+    "also-known-as": ["sfex3", "sf ex3", "ex3"]
+  },
+  "platforms": [
+    {
+      "platform": "PlayStation 2",
+      "regions": [
+        {
+          "region": "United States",
+          "roman": "Street Fighter EX3",
+          "releaseDate": "10-16-2000",
+          "developer": "Arika",
+          "publisher": "Capcom",
+          "coverFront": "ps2-us-front.webp"
+        },
+        {
+          "region": "Europe",
+          "roman": "Street Fighter EX3",
+          "releaseDate": "03-02-2001",
+          "developer": "Arika",
+          "publisher": "Capcom",
+          "coverFront": "ps2-eu-front.webp"
+        },
+        {
+          "region": "Japan",
+          "roman": "Street Fighter EX3",
+          "original": "ストリートファイターEX3",
+          "releaseDate": "03-04-2000",
+          "developer": "Arika",
+          "publisher": "Capcom",
+          "coverFront": "ps2-jp-front.webp"
+        }
+      ]
+    }
+  ],
+  "characters": [
+    {
+      "regions": [
+        {
+          "region": "default",
+          "roman": "Ryu"
+        },
+        {
+          "region": "japan",
+          "roman": "Ryu",
+          "original": "リュウ"
+        }
+      ]
+    },
+    {
+      "regions": [
+        {
+          "region": "default",
+          "roman": "Ken Masters"
+        },
+        {
+          "region": "japan",
+          "roman": "Ken Masters",
+          "original": "ケン・マスターズ"
+        }
+      ]
+    },
+    {
+      "regions": [
+        {
+          "region": "default",
+          "roman": "Chun-Li"
+        },
+        {
+          "region": "japan",
+          "roman": "Chun-Li",
+          "original": "チュンリー"
+        }
+      ]
+    },
+    {
+      "regions": [
+        {
+          "region": "default",
+          "roman": "M. Bison"
+        },
+        {
+          "region": "japan",
+          "roman": "Vega",
+          "original": "ベガ"
+        }
+      ]
+    },
+    {
+      "regions": [
+        {
+          "region": "default",
+          "roman": "Zangief"
+        },
+        {
+          "region": "japan",
+          "roman": "Zangief",
+          "original": "ザンギエフ"
+        }
+      ]
+    },
+    {
+      "regions": [
+        {
+          "region": "default",
+          "roman": "Dhalsim"
+        },
+        {
+          "region": "japan",
+          "roman": "Dhalsim",
+          "original": "ダルシム"
+        }
+      ]
+    },
+    {
+      "regions": [
+        {
+          "region": "default",
+          "roman": "Guile"
+        },
+        {
+          "region": "japan",
+          "roman": "Guile",
+          "original": "ガイル"
+        }
+      ]
+    },
+    {
+      "regions": [
+        {
+          "region": "default",
+          "roman": "Hokuto"
+        },
+        {
+          "region": "japan",
+          "roman": "Hokuto",
+          "original": "ほくと"
+        }
+      ]
+    },
+    {
+      "regions": [
+        {
+          "region": "default",
+          "roman": "Doctrine Dark"
+        },
+        {
+          "region": "japan",
+          "roman": "Doctrine Dark",
+          "original": "ドクトリン・ダーク"
+        }
+      ]
+    },
+    {
+      "regions": [
+        {
+          "region": "default",
+          "roman": "Pullum Purna"
+        },
+        {
+          "region": "japan",
+          "roman": "Pullum Purna",
+          "original": "プルム・プルナ"
+        }
+      ]
+    },
+    {
+      "regions": [
+        {
+          "region": "default",
+          "roman": "Cracker Jack"
+        },
+        {
+          "region": "japan",
+          "roman": "Cracker Jack",
+          "original": "クラッカー・ジャック"
+        }
+      ]
+    },
+    {
+      "regions": [
+        {
+          "region": "default",
+          "roman": "Skullomania"
+        },
+        {
+          "region": "japan",
+          "roman": "Skullomania",
+          "original": "スカロマニア"
+        }
+      ]
+    },
+    {
+      "regions": [
+        {
+          "region": "default",
+          "roman": "Kairi"
+        },
+        {
+          "region": "japan",
+          "roman": "Kairi",
+          "original": "カイリ"
+        }
+      ]
+    },
+    {
+      "regions": [
+        {
+          "region": "default",
+          "roman": "Darun Mister"
+        },
+        {
+          "region": "japan",
+          "roman": "Darun Mister",
+          "original": "ダラン・マイスター"
+        }
+      ]
+    },
+    {
+      "regions": [
+        {
+          "region": "default",
+          "roman": "Garuda"
+        },
+        {
+          "region": "japan",
+          "roman": "Garuda",
+          "original": "ガルダ"
+        }
+      ]
+    },
+    {
+      "regions": [
+        {
+          "region": "default",
+          "roman": "Blanka"
+        },
+        {
+          "region": "japan",
+          "roman": "Blanka",
+          "original": "ブランカ"
+        }
+      ]
+    },
+    {
+      "regions": [
+        {
+          "region": "default",
+          "roman": "Sagat"
+        },
+        {
+          "region": "japan",
+          "roman": "Sagat",
+          "original": "サガット"
+        }
+      ]
+    },
+    {
+      "regions": [
+        {
+          "region": "default",
+          "roman": "Vega"
+        },
+        {
+          "region": "japan",
+          "roman": "Balrog",
+          "original": "バルログ"
+        }
+      ]
+    },
+    {
+      "regions": [
+        {
+          "region": "default",
+          "roman": "Nanase"
+        },
+        {
+          "region": "japan",
+          "roman": "Nanase",
+          "original": "七瀬"
+        }
+      ]
+    },
+    {
+      "regions": [
+        {
+          "region": "default",
+          "roman": "Vulcano Rosso"
+        },
+        {
+          "region": "japan",
+          "roman": "Vulcano Rosso",
+          "original": "ヴルカーノ・ロッソ"
+        }
+      ]
+    },
+    {
+      "regions": [
+        {
+          "region": "default",
+          "roman": "Area"
+        },
+        {
+          "region": "japan",
+          "roman": "Area",
+          "original": "エリア"
+        }
+      ]
+    },
+    {
+      "regions": [
+        {
+          "region": "default",
+          "roman": "Sharon"
+        },
+        {
+          "region": "japan",
+          "roman": "Sharon",
+          "original": "シャロン"
+        }
+      ]
+    },
+    {
+      "regions": [
+        {
+          "region": "default",
+          "roman": "Shadowgeist"
+        },
+        {
+          "region": "japan",
+          "roman": "Shadowgeist",
+          "original": "シャドウガイスト"
+        }
+      ]
+    },
+    {
+      "regions": [
+        {
+          "region": "default",
+          "roman": "Sakura Kasugano"
+        },
+        {
+          "region": "japan",
+          "roman": "Sakura Kasugano",
+          "original": "春日野 さくら"
+        }
+      ]
+    },
+    {
+      "regions": [
+        {
+          "region": "default",
+          "roman": "Evil Ryu"
+        },
+        {
+          "region": "japan",
+          "roman": "Satsui no Hado ni Mezameta Ryu",
+          "original": "殺意の波動に目覚めたリュウ"
+        }
+      ]
+    }
+  ]
+}
