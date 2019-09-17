@@ -1,0 +1,161 @@
+{
+  "names": {
+    "default": {
+      "roman": "Area"
+    },
+    "japan": {
+      "roman": "Area",
+      "original": "エリア"
+    }
+  },
+  "images": {
+    "face": "area.webp"
+  },
+  "moves": {
+    "{normalThrows}": [
+      {
+        "name": "Transmission",
+        "input": "[LP]+[LK]",
+        "extraInfo": "{onlyWithArm}"
+      },
+      {
+        "name": "OCR",
+        "input": ":b:+[LP]+[LK]"
+      }
+    ],
+    "{uniqueAttacks}": [
+      {
+        "name": "Shift Stamp Punch",
+        "input": ":df:+[MP]",
+        "extraInfo": "{onlyWithArm}"
+      },
+      {
+        "name": "Shift Club Upper",
+        "input": ":df:+[HP]",
+        "extraInfo": "{onlyWithArm}"
+      },
+      {
+        "name": "Shift Club Straight",
+        "input": ":f:+[HP]",
+        "extraInfo": "{onlyWithArm}"
+      },
+      {
+        "name": "Job Step",
+        "input": ":f:+[MK]"
+      },
+      {
+        "name": "Pull Down Leg",
+        "input": ":f:+[HK]"
+      },
+      {
+        "name": "Head Crush",
+        "input": "{inAir}, :d:+[HP]",
+        "extraInfo": "{onlyWithArm}"
+      }
+    ],
+    "{specialMoves}": [
+      {
+        "name": "Upload",
+        "input": "{inAir}, {press} [LP]+[MP]+[HP] ({hold} [LP]+[MP]+[HP] {toDelay})",
+        "extraInfo": "{onlyWithArm}"
+      },
+      {
+        "name": "Download",
+        "input": "[LP]+[MP]+[HP] ({hold} [LP]+[MP]+[HP] {toControlDistance})",
+        "extraInfo": "{onlyWithArm}"
+      },
+      {
+        "name": "Humming Rush",
+        "input": ":qcf:+[P]",
+        "extraInfo": "{onlyWithArm}"
+      },
+      {
+        "name": "Thunder Break",
+        "input": "[LP]+[MP]+[HP]",
+        "after": "Humming Rush"
+      },
+      {
+        "name": "Jackson Kick",
+        "input": ":qcf:+[K]"
+      },
+      {
+        "name": "Popup Knee",
+        "input": ":f:+[LK]",
+        "after": "Jackson Kick"
+      },
+      {
+        "name": "Partition Break",
+        "input": ":f:+[MK]",
+        "after": "Jackson Kick"
+      },
+      {
+        "name": "Pull Down Heel",
+        "input": ":f:+[HK]",
+        "after": "Jackson Kick"
+      },
+      {
+        "name": "Alternative Catch",
+        "input": ":hcb:+[K]"
+      },
+      {
+        "name": "Front Kick",
+        "input": ":b:+[K]",
+        "after": "Alternative Catch"
+      },
+      {
+        "name": "Rear Kick",
+        "input": ":f:+[K]",
+        "after": "Alternative Catch"
+      },
+      {
+        "name": "Emulator",
+        "input": ":rdp:+[P]",
+        "extraInfo": "{onlyWithArm}"
+      },
+      {
+        "name": "Reverse Gear",
+        "input": ":qcb:+[P] ({airOK})",
+        "after": "Emulator"
+      },
+      {
+        "name": "Taunt 1",
+        "input": "[LP] > [LP] > :f: > [LK] > [HP]"
+      },
+      {
+        "name": "Taunt 2",
+        "input": "[LP] > [LP] > :f: > [LK] > [HK]"
+      }
+    ],
+    "{superCombos}": [
+      {
+        "name": "Great Cancer",
+        "input": ":qcf::qcf:+[P] ({hold} [P] {toCharge})",
+        "extraInfo": "{onlyWithArm}"
+      },
+      {
+        "name": "Great Cancer (Air)",
+        "input": "{inAir}, :qcf::qcf:+[P]",
+        "extraInfo": "{onlyWithArm}"
+      },
+      {
+        "name": "Five Star Raid",
+        "input": ":qcf::qcf:+[K]"
+      }
+    ],
+    "{meteorCombo}": [
+      {
+        "name": "Final Cancer",
+        "input": ":qcb::qcb:+[LP]+[MP]+[HP]",
+        "extraInfo": "{onlyWithArm}"
+      }
+    ]
+  },
+  "custom_strings": {
+    "english": {
+      "onlyWithArm": "Only possible with the cyber arm equipped"
+    },
+    "portuguese": {
+      "onlyWithArm": "Possível apenas com o braço cibernético equipado"
+    }
+  }
+}
