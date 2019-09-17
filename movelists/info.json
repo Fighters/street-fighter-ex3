@@ -1,0 +1,23 @@
+{
+    "buttons": {
+        "Arcade": [
+            { "image": "layout.webp" },
+            { "LP": "LP" },
+            { "MP": "MP" },
+            { "HP": "HP" },
+            { "LK": "LK" },
+            { "MK": "MK" },
+            { "HK": "HK" }
+        ],
+        
+        "PlayStation 2": [
+            { "LP": "Square" },
+            { "MP": "Triangle" },
+            { "HP": "R1" },
+            { "LK": "X" },
+            { "MK": "Circle" },
+            { "HK": "R2" }
+        ]        
+    },
+    "hasUpgrades": false
+}
