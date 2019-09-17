@@ -1,0 +1,18 @@
+{
+    "english": {
+        "normalThrows": "Normal Throws",
+        "uniqueAttacks": "Unique Attacks",
+        "specialMoves": "Special Moves",
+        "superCombos": "Super Combos",
+        "meteorCombo": "Meteor Combo",
+        "meteorCombos": "Meteor Combos"
+    },
+    "portuguese": {
+        "normalThrows": "Agarrões Normais",
+        "uniqueAttacks": "Ataques Únicos",
+        "specialMoves": "Golpes Especiais",
+        "superCombos": "Super Combos",
+        "meteorCombo": "Meteor Combo",
+        "meteorCombos": "Meteor Combos"
+    }
+}
