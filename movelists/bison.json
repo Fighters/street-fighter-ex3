@@ -1,0 +1,65 @@
+{
+  "names": {
+    "default": {
+      "roman": "Bison"
+    },
+    "japan": {
+      "roman": "Vega",
+      "original": "ベガ"
+    }
+  },
+  "images": {
+    "face": "bison.webp"
+  },
+  "moves": {
+    "{normalThrows}": [
+      {
+        "name": "Deadly Throw",
+        "input": "[LP]+[LK]"
+      },
+      {
+        "name": "Death Tower",
+        "input": ":b:+[LP]+[LK]"
+      }
+    ],
+    "{specialMoves}": [
+      {
+        "name": "Psycho Crusher",
+        "input": "{charge} :b: :f:+[P]"
+      },
+      {
+        "name": "Double Knee Press",
+        "input": "{charge} :b: :f:+[K]"
+      },
+      {
+        "name": "Head Press",
+        "input": "{charge} :d: :u:+[K] ({use} :b: {or} :f: {toChangeTrajectory} {onHit})"
+      },
+      {
+        "name": "Somersault Skull Diver",
+        "input": "[P]",
+        "after": "Head Press"
+      },
+      {
+        "name": "Bison Warp",
+        "input": ":dp: {or} :rdp:+[LP]+[MP]+[HP] {or} [LK]+[MK]+[HK]"
+      }
+    ],
+    "{superCombo}": [
+      {
+        "name": "Psycho Cannon",
+        "input": "{charge} :b: :f::b::f:+[P] ({hold} [P] {toCharge})"
+      },
+      {
+        "name": "Knee Press Nightmare",
+        "input": "{charge} :b: :f::b::f:+[K]"
+      }
+    ],
+    "{meteorCombo}": [
+      {
+        "name": "Psycho Break Smasher",
+        "input": "{charge} :b: :f::b::f:+[LP]+[MP]+[HP]"
+      }
+    ]
+  }
+}
