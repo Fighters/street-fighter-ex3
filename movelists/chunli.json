@@ -1,0 +1,86 @@
+{
+  "names": {
+    "default": {
+      "roman": "Chun-Li"
+    },
+    "japan": {
+      "roman": "Chun-Li",
+      "original": "チュンリー"
+    }
+  },
+  "images": {
+    "face": "chunli.webp"
+  },
+  "moves": {
+    "{normalThrows}": [
+      {
+        "name": "Koshuda",
+        "input": "[LP]+[LK]"
+      },
+      {
+        "name": "Koshuto",
+        "input": ":b:+[LP]+[LK]"
+      },
+      {
+        "name": "Ryuseiraku",
+        "input": "{inAirAndClose}, :b: {or} :f:+[MP] {or} [HP]"
+      }
+    ],
+    "{uniqueAttacks}": [
+      {
+        "name": "Soshoda",
+        "input": ":f:+[MP]"
+      },
+      {
+        "name": "Tenkukyaku",
+        "input": ":f:+[HK]"
+      },
+      {
+        "name": "Yosokyaku",
+        "input": "{inAir}, :d:+[MK] ({upTo3x})"
+      }
+    ],
+    "{specialMoves}": [
+      {
+        "name": "Hyakuretsukyaku",
+        "input": "{tapKick}"
+      },
+      {
+        "name": "Kikoken",
+        "input": "{charge} :b: :f:+[P]"
+      },
+      {
+        "name": "Spinning Bird Kick",
+        "input": ":qcf:+[K]"
+      },
+      {
+        "name": "Hienshu",
+        "input": ":qcb:+[K]"
+      },
+      {
+        "name": "Gomenne!",
+        "input": "[LP] > [LP] > :f: > [LK] > [HP]"
+      }
+    ],
+    "{superCombos}": [
+      {
+        "name": "Kikosho",
+        "input": ":qcf::qcf:+[P]"
+      },
+      {
+        "name": "Senretsukyaku",
+        "input": ":qcf::qcf:+[K]"
+      },
+      {
+        "name": "Hazan Tenshokyaku",
+        "input": ":qcb::qcb:+[K]"
+      }
+    ],
+    "{meteorCombo}": [
+      {
+        "name": "Kikosho Goku",
+        "input": ":qcf::qcf:+[LP]+[MP]+[HP]"
+      }
+    ]
+  }
+}
