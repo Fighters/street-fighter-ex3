@@ -1,0 +1,91 @@
+{
+  "names": {
+    "default": {
+      "roman": "Blanka"
+    },
+    "japan": {
+      "roman": "Blanka",
+      "original": "ブランカ"
+    }
+  },
+  "images": {
+    "face": "blanka.webp"
+  },
+  "moves": {
+    "{normalThrows}": [
+      {
+        "name": "Wild Fang",
+        "input": ":b: {or} :f:+[LP]+[LK]"
+      }
+    ],
+    "{uniqueAttacks}": [
+      {
+        "name": "Rock Crusher",
+        "input": ":f:+[MP]"
+      },
+      {
+        "name": "Amazon River Run",
+        "input": ":df:+[HP]"
+      },
+      {
+        "name": "Surprise Forward",
+        "input": ":f:+[LK]+[MK]+[HK]"
+      },
+      {
+        "name": "Surprise Back",
+        "input": ":b:+[LK]+[MK]+[HK]"
+      }
+    ],
+    "{specialMoves}": [
+      {
+        "name": "Electric Thunder",
+        "input": "{tapPunch}"
+      },
+      {
+        "name": "Rolling Attack",
+        "input": "{charge} :b: :f:+[P]"
+      },
+      {
+        "name": "Backstep Roll",
+        "input": "{charge} :b: :f:+[K] ({press} [P] {toCancel}; {use} :b: {or} :f: {toControlDistance}"
+      },
+      {
+        "name": "Vertical Rolling",
+        "input": "{charge} :d: :u:+[K]"
+      }
+    ],
+    "{superCombos}": [
+      {
+        "name": "Ground Shave Rolling",
+        "input": "{charge} :b: :f::b::f:+[P] ({hold} [P] {toCharge})"
+      },
+      {
+        "name": "Jungle Beat",
+        "input": "{charge} :b: :f::b::f:+[K]"
+      },
+      {
+        "name": "Beast Hurricane",
+        "input": "{inAir}, :qcf::qcf:+[P]"
+      }
+    ],
+    "{meteorCombo}": [
+      {
+        "name": "Super Electric Thunder",
+        "input": ":qcf::qcf:+[LK]+[MK]+[HK]"
+      },
+      {
+        "name": "Meteor Tag Combo",
+        "input": "{charge} :b: :f::b::f:+[LP]+[MP]+[HP]",
+        "extraInfo": "{meteorPartner}"
+      }
+    ]
+  },
+  "custom-strings": {
+    "english": {
+      "meteorPartner": "requires Dhalsim as partner"
+    },
+    "portuguese": {
+      "meteorPartner": "só pode ser feito com Dhalsim de parceiro"
+    }
+  }
+}
