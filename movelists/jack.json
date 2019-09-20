@@ -1,0 +1,102 @@
+{
+  "names": {
+    "default": {
+      "roman": "C. Jack"
+    },
+    "japan": {
+      "roman": "C. Jack",
+      "original": "クラッカー・ジャック"
+    }
+  },
+  "images": {
+    "face": "cjack.webp"
+  },
+  "moves": {
+    "{normalThrows}": [
+      {
+        "name": "Power Hunter",
+        "input": "[LP]+[LK]"
+      },
+      {
+        "name": "Power Lift Throw",
+        "input": ":b:+[LP]+[LK]"
+      }
+    ],
+    "{uniqueAttacks}": [
+      {
+        "name": "Angry Fist",
+        "input": ":f:+[MP]"
+      }
+    ],
+    "{specialMoves}": [
+      {
+        "name": "Dash Straight",
+        "input": "{charge} :b: :f:+[P]"
+      },
+      {
+        "name": "Dash Upper",
+        "input": "{charge} :b: :f:+[K]"
+      },
+      {
+        "name": "Batting Hero",
+        "input": ":hcf:+[P]"
+      },
+      {
+        "name": "Soccer Ball Kick",
+        "input": ":hcf:+[K]"
+      },
+      {
+        "name": "Jack Hammer",
+        "input": ":360:+[P]"
+      },
+      {
+        "name": "Final Punch",
+        "input": "{hold} [LP]+[MP]+[HP] {or} [LK]+[MK]+[HK] {then} {release}"
+      },
+      {
+        "name": "Feint Dash",
+        "input": ":qcb:+[P]"
+      }
+    ],
+    "{superCombos}": [
+      {
+        "name": "Crazy Jack",
+        "input": "{charge} :b: :f::b::f:+[P]",
+        "extraInfo": "{hold} [K] {toChangeAttack}"
+      },
+      {
+        "name": "Raging Buffalo",
+        "input": "{charge} :b: :f::b::f:+[K]"
+      },
+      {
+        "name": "Homerun Hero",
+        "input": ":qcb::qcb:+[P]"
+      },
+      {
+        "name": "Grandslam Crusher",
+        "input": ":qcb::qcb:+[K]"
+      }
+    ],
+    "{meteorCombo}": [
+      {
+        "name": "Homerun King",
+        "input": ":qcf::qcf:+[LK]+[MK]+[HK] ({press} [P] {toAttack}"
+      },
+      {
+        "name": "Meteor Tag Combo",
+        "input": "{charge} :b: :f::b::f:+[LP]+[MP]+[HP]",
+        "extraInfo": "{meteorPartner}"
+      }
+    ]
+  },
+  "custom_strings": {
+    "english": {
+      "toChangeAttack": "to change the attacks",
+      "meteorPartner": "requires V. Rosso as a partner"
+    },
+    "portuguese": {
+      "toChangeAttack": "para alterar os ataques",
+      "meteorPartner": "só pode ser feito com V. Rosso de parceiro"
+    }
+  }
+}
