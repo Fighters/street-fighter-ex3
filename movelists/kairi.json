@@ -1,0 +1,91 @@
+{
+  "names": {
+    "default": {
+      "roman": "Kairi"
+    },
+    "japan": {
+      "roman": "Kairi",
+      "original": "カイリ"
+    }
+  },
+  "images": {
+    "face": "kairi.webp"
+  },
+  "moves": {
+    "{normalThrows}": [
+      {
+        "name": "Kuteikaku",
+        "input": "[LP]+[LK]"
+      },
+      {
+        "name": "Reverse Hell Wheel",
+        "input": ":b:+[LP]+[LK]"
+      }
+    ],
+    "{uniqueAttacks}": [
+      {
+        "name": "Ryobu",
+        "input": ":f:+[MK]"
+      },
+      {
+        "name": "Ryujinkyaku",
+        "input": "{inAir}, :d:+[MK] {or} [HK]"
+      }
+    ],
+    "{specialMoves}": [
+      {
+        "name": "Shinki Hatsudo",
+        "input": ":qcf:+[P]"
+      },
+      {
+        "name": "Maryu Rekko",
+        "input": ":dp:+[P]"
+      },
+      {
+        "name": "Mouryo Kasen",
+        "input": ":qcb:+[K], {then} :b:+[K] ({upTo3x})"
+      },
+      {
+        "name": "Mekku Zangeki",
+        "input": ":rdp:+[P]"
+      }
+    ],
+    "{superCombos}": [
+      {
+        "name": "Sairo Kyoshu",
+        "input": ":qcb::qcb:+[P]"
+      },
+      {
+        "name": "Shinki Hatsudo Kai",
+        "input": "{inAir}, :qcf::qcf:+[P]"
+      },
+      {
+        "name": "Garyu Messhu",
+        "input": "{inAir}, :qcf::qcf:+[K]"
+      },
+      {
+        "name": "Maki Hatsudo",
+        "input": "[LP] > [HP] > [MK] > :f: > [LK] > [MP] > [HK]",
+        "extraInfo": "{kairiHealth}"
+      }
+    ],
+    "{meteorCombos}": [
+      {
+        "name": "Kyoja Renbu",
+        "input": "[LP] > [LP] > :f: > [LK] > [HP]"
+      },
+      {
+        "name": "Shoki Hatsudo",
+        "input": ":qcf::qcf:+[LP]+[MP]+[HP]"
+      }
+    ]
+  },
+  "custom_strings": {
+    "english": {
+      "kairiHealth": "can only be done if Kairi has 25% or less health"
+    },
+    "portuguese": {
+      "kairiHealth": "só pode ser feito se Kairi tiver 25% ou menos de vida"
+    }
+  }
+}
