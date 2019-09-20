@@ -15,11 +15,11 @@
     "{normalThrows}": [
       {
         "name": "Body Slam",
-        "input": "{close}, :b: {or} :f:+[MP] {or} [HP]"
+        "input": "[LP]+[LK]"
       },
       {
         "name": "German Suplex",
-        "input": "{close}, :b: {or} :f:+[MK] {or} [HK]"
+        "input": ":b:+[LP]+[LK]"
       },
       {
         "name": "Fall Ganjis DDT",
