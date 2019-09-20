@@ -1,0 +1,131 @@
+{
+  "names": {
+    "default": {
+      "roman": "Hokuto"
+    },
+    "japan": {
+      "roman": "Hokuto",
+      "original": "ほくと"
+    }
+  },
+  "images": {
+    "face": "hokuto.webp"
+  },
+  "moves": {
+    "{normalThrows}": [
+      {
+        "name": "Kyaku",
+        "input": "{close}, :b: {or} :f:+[MP] {or} [HP]"
+      },
+      {
+        "name": "Keishukou",
+        "input": "{close}, :b: {or} :f:+[MK] {or} [HK]"
+      }
+    ],
+    "{uniqueAttacks}": [
+      {
+        "name": "Chu-Hoh",
+        "input": ":f:+[HP]"
+      },
+      {
+        "name": "Gai-Shu",
+        "input": ":f:+[HK]"
+      }
+    ],
+    "{specialMoves}": [
+      {
+        "name": "Chugeki-Hoh",
+        "input": ":qcf:+[P]"
+      },
+      {
+        "name": "Shogekiha",
+        "input": ":f:+[P]",
+        "after": "Chugeki-Hoh"
+      },
+      {
+        "name": "Shinku-Geki",
+        "input": ":b:+[P]",
+        "after": "Chugeki-Hoh"
+      },
+      {
+        "name": "Shinkyaku-Geki",
+        "input": ":b:+[K]",
+        "after": "Chugeki-Hoh"
+      },
+      {
+        "name": "Shinku-Geki",
+        "input": ":qcb:+[P]"
+      },
+      {
+        "name": "Shinkyaku-Geki",
+        "input": ":qcb:+[K]"
+      },
+      {
+        "name": "Shin",
+        "input": ":qcb:+[P] {or} [K] > :b:+[P] {or} [K]"
+      },
+      {
+        "name": "Gokyakuko",
+        "input": ":rdp:+[P]"
+      },
+      {
+        "name": "Ryusui",
+        "input": "{close}, :360:+[P]"
+      }
+    ],
+    "{superCombos}": [
+      {
+        "name": "Kiren-Eki",
+        "input": ":qcb::qcb:+[P] ({hold} [P] {toCharge})"
+      },
+      {
+        "name": "Kyakuhougi",
+        "input": ":qcb::qcb:+[K]"
+      },
+      {
+        "name": "Kakusei",
+        "input": ":qcf::qcf:+[K]"
+      },
+      {
+        "name": "Shorin-Geki",
+        "input": ":qcb:+[P]",
+        "after": "Kakusei"
+      },
+      {
+        "name": "Rensho-Geki",
+        "input": ":qcf::qcf:+[P]",
+        "after": "Kakusei"
+      },
+      {
+        "name": "Renbu",
+        "input": "[LP] > [LP] > :f: > [LK] > [HP]",
+        "after": "Kakusei"
+      }
+    ],
+    "{meteorCombo}": [
+      {
+        "name": "Shirasegatana",
+        "input": ":qcf::qcf:+[LK]+[MK]+[HK]"
+      },
+      {
+        "name": "Tenkyosatsu",
+        "input": ":qcf::qcf:+[LK]+[MK]+[HK]",
+        "after": "Kakusei"
+      },
+      {
+        "name": "Meteor Tag Combo",
+        "input": "[LP] > [LP] > :b: > [LK] > [HP]",
+        "after": "Kakusei",
+        "extraInfo": "{meteorPartner}"
+      }
+    ]
+  },
+  "custom_strings": {
+    "english": {
+      "meteorPartner": "requires Kairi as a partner"
+    },
+    "portuguese": {
+      "meteorPartner": "só pode ser feito com Kairi de parceiro"
+    }
+  }
+}
