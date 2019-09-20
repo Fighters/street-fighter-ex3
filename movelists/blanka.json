@@ -80,7 +80,7 @@
       }
     ]
   },
-  "custom-strings": {
+  "custom_strings": {
     "english": {
       "meteorPartner": "requires Dhalsim as partner"
     },
