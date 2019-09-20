@@ -1,0 +1,100 @@
+{
+  "names": {
+    "default": {
+      "roman": "Zangief"
+    },
+    "japan": {
+      "roman": "Zangief",
+      "original": "ザンギエフ"
+    }
+  },
+  "images": {
+    "face": "zangief.webp"
+  },
+  "moves": {
+    "{normalThrows}": [
+      {
+        "name": "Iron Claw",
+        "input": "[LP]+[LK]"
+      },
+      {
+        "name": "German Suplex",
+        "input": ":b:+[LP]+[LK]"
+      },
+      {
+        "name": "Stomach Block",
+        "input": "{behindOpponent}, :b:+[LP]+[LK]"
+      }
+    ],
+    "{uniqueAttacks}": [
+      {
+        "name": "Flying Body Press",
+        "input": "{inAir}, :d:+[HP]"
+      }
+    ],
+    "{specialMoves}": [
+      {
+        "name": "Double Lariat",
+        "input": "[LP]+[MP]+[HP] ({use} :b: {or} :f: {toMove})"
+      },
+      {
+        "name": "Quick Double Lariat",
+        "input": "[LK]+[MK]+[HK] ({use} :b: {or} :f: {toMove})"
+      },
+      {
+        "name": "Spinning Piledriver",
+        "input": ":360:+[P]"
+      },
+      {
+        "name": "Russian Suplex",
+        "input": "{far}, :360:+[K]"
+      },
+      {
+        "name": "Bear Hug",
+        "input": "{far}, :360:+[K], {then} {press} [P]"
+      },
+      {
+        "name": "Atomic Suplex",
+        "input": "{close}, :360:+[K]"
+      }
+    ],
+    "{superCombos}": [
+      {
+        "name": "Final Atomic Buster",
+        "input": ":360::360:+[P]"
+      },
+      {
+        "name": "Aerial Russian Slam",
+        "input": ":qcb::qcb:+[K]"
+      },
+      {
+        "name": "Super Stomping",
+        "input": ":qcf::qcf:+[K]"
+      },
+      {
+        "name": "Cancel",
+        "input": ":qcb:+[K]",
+        "after": "Super Stomping"
+      }
+    ],
+    "{meteorCombo}": [
+      {
+        "name": "Cosmic Final Atomic Buster",
+        "input": ":360::360:+[LP]+[MP]+[HP]"
+      },
+      {
+        "name": "Meteor Tag Combo",
+        "input": ":360::360:+[LK]+[MK]+[HK]",
+        "extraInfo": "{meteorPartner}"
+      }
+    ]
+  },
+  "custom_strings":{
+    "english": {
+      "meteorPartner": "requires Darun as a partner"
+    },
+    "portuguese":{
+      "meteorPartner": "só pode ser feito com Darun de parceiro"
+    }
+  }
+}
