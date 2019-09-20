@@ -1,0 +1,91 @@
+{
+  "names": {
+    "default": {
+      "roman": "Dhalsim"
+    },
+    "japan": {
+      "roman": "Dhalsim",
+      "original": "ダルシム"
+    }
+  },
+  "images": {
+    "face": "dhalsim.webp"
+  },
+  "moves": {
+    "{normalThrows}": [
+      {
+        "name": "Yoga Smash",
+        "input": "[LP]+[LK]"
+      },
+      {
+        "name": "Yoga Throw",
+        "input": ":b:+[LP]+[LK]"
+      }
+    ],
+    "{uniqueAttacks}": [
+      {
+        "name": "Short Limb",
+        "input": ":b: {or} :db:+[P] {or} [K]"
+      },
+      {
+        "name": "Yoga Mummy",
+        "input": "{inAir} :d:+[HP]"
+      },
+      {
+        "name": "Drill Kick",
+        "input": "{inAir} :d:+[K]"
+      }
+    ],
+    "{specialMoves}": [
+      {
+        "name": "Yoga Fire",
+        "input": ":qcf:+[P]"
+      },
+      {
+        "name": "Yoga Flame",
+        "input": ":qcb:+[P]"
+      },
+      {
+        "name": "Yoga Blast",
+        "input": ":qcb:+[K]"
+      },
+      {
+        "name": "Yoga Catch",
+        "input": ":qcf:+[K]"
+      },
+      {
+        "name": "Yoga Contact",
+        "input": "{hold} [K]",
+        "after": "Yoga Catch"
+      },
+      {
+        "name": "Yoga Fake",
+        "input": ":qcf:+{hold} [LK]+[MK]+[HK]"
+      },
+      {
+        "name": "Yoga Teleport",
+        "input": ":dp: {or} :rdp:+[LP]+[MP]+[HP] {or} [LK]+[MK]+[HK]"
+      },
+      {
+        "name": "Yoga Float",
+        "input": "{inAir}, :f::uf::u::ub::b:+[K]"
+      }
+    ],
+    "{superCombos}": [
+      {
+        "name": "Yoga Legend",
+        "input": ":qcb::qcb:+[K]"
+      },
+      {
+        "name": "Yoga Drill Kick",
+        "input": "{inAir}, :qcf::qcf:+[K] ({use} {directional} {toChangeTrajectory})"
+      }
+    ],
+    "{meteorCombo}": [
+      {
+        "name": "Yoga Inferno",
+        "input": ":qcf::qcf:+[LP]+[MP]+[HP] ({use} {directional} {toChangeTrajectory})"
+      }
+    ]
+  }
+}
