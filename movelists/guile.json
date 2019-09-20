@@ -1,0 +1,87 @@
+{
+  "names": {
+    "default": {
+      "roman": "Guile"
+    },
+    "japan": {
+      "roman": "Guile",
+      "original": "ガイル"
+    }
+  },
+  "images": {
+    "face": "guile.webp"
+  },
+  "moves": {
+    "{normalThrows}": [
+      {
+        "name": "Judo Throw",
+        "input": "[LP]+[LK]"
+      },
+      {
+        "name": "Dragon Suplex",
+        "input": ":b:+[LP]+[LK]"
+      },
+      {
+        "name": "Flying Buster Drop",
+        "input": "{inAirAndClose} :b: {or} :f:+[MP] {or} [HP]"
+      }
+    ],
+    "{uniqueAttacks}": [
+      {
+        "name": "Spinning Back Knuckle",
+        "input": ":f:+[HP]"
+      },
+      {
+        "name": "Knee Bazooka",
+        "input": ":b: {or} :f:+[LK]"
+      },
+      {
+        "name": "Rolling Sobat",
+        "input": ":b: {or} :f:+[MK]"
+      },
+      {
+        "name": "Heavy Stab Kick",
+        "input": ":b: {or} :f:+[HK]"
+      }
+    ],
+    "{specialMoves}": [
+      {
+        "name": "Sonic Boom",
+        "input": "{charge} :b: :f:+[P]"
+      },
+      {
+        "name": "Flash Kick",
+        "input": "{charge} :d: :u:+[K]"
+      }
+    ],
+    "{superCombos}": [
+      {
+        "name": "Opening Gambit",
+        "input": "{charge} :b: :f::b::f:+[P]"
+      },
+      {
+        "name": "Double Flash Kick",
+        "input": "{charge} :db: :df::db::uf:+[K]"
+      }
+    ],
+    "{meteorCombo}": [
+      {
+        "name": "Sonic Boom Typhoon",
+        "input": "{charge} :b: :f::b::f:+[LK]+[MK]+[HK]"
+      },
+      {
+        "name": "Meteor Tag Combo",
+        "input": "{charge} :b: :f::b::f:+[LP]+[MP]+[HP]",
+        "extraInfo": "{meteorPartner}"
+      }
+    ]
+  },
+  "custom_strings": {
+    "english": {
+      "meteorPartner": "requires Chun-Li as a partner"
+    },
+    "portuguese": {
+      "meteorPartner": "só pode ser feito com Chun-Li de parceira"
+    }
+  }
+}
