@@ -1,0 +1,106 @@
+{
+  "names": {
+    "default": {
+      "roman": "Darun"
+    },
+    "japan": {
+      "roman": "Darun",
+      "original": "ダラン"
+    }
+  },
+  "images": {
+    "face": "darun.webp"
+  },
+  "moves": {
+    "{normalThrows}": [
+      {
+        "name": "Body Slam",
+        "input": "{close}, :b: {or} :f:+[MP] {or} [HP]"
+      },
+      {
+        "name": "German Suplex",
+        "input": "{close}, :b: {or} :f:+[MK] {or} [HK]"
+      },
+      {
+        "name": "Fall Ganjis DDT",
+        "input": "{inAirAndClose}, :b: {or} :f:+[MP] {or} [HP]"
+      }
+    ],
+    "{specialMoves}": [
+      {
+        "name": "Lariat",
+        "input": ":qcf:+[P]"
+      },
+      {
+        "name": "Ganjis DDT",
+        "input": ":dp:+[K]"
+      },
+      {
+        "name": "Darun Catch",
+        "input": ":rdp:+[P]"
+      },
+      {
+        "name": "Brahma Bomb",
+        "input": ":360:+[P]"
+      },
+      {
+        "name": "Indra Bridge",
+        "input": ":360:+[K]"
+      },
+      {
+        "name": "Daikaku",
+        "input": "[LP]+[MP]+[HP]"
+      },
+      {
+        "name": "Joju",
+        "input": "[LK]+[MK]+[HK]",
+        "after": "Daikaku"
+      }
+    ],
+    "{superCombos}": [
+      {
+        "name": "Power Indra Bridge",
+        "input": ":qcb::qcb:+[K]"
+      },
+      {
+        "name": "Super Darun Bomb",
+        "input": ":360::360:+[P]"
+      }
+    ],
+    "{meteorCombo}": [
+      {
+        "name": "Gamble of Darun",
+        "input": ":360:+[LP]+[MP]+[HP]"
+      },
+      {
+        "name": "Gamble of Darun Followups",
+        "input": ":360:+[P] {or} [K] ({upTo3x})",
+        "after": "Gamble of Darun",
+        "extraInfo": "{gambleFollowups}"
+      },
+      {
+        "name": "Gamble of Darun Finisher",
+        "input": "{charge} :u: :d::u:+[P] {or} [K]",
+        "after": "Gamble of Darun Followups",
+        "extraInfo": "{gambleFinisher}"
+      },
+      {
+        "name": "Meteor Tag Combo",
+        "input": ":360::360:+[LK]+[MK]+[HK]",
+        "extraInfo": "{meteorPartner}"
+      }
+    ]
+  },
+  "custom_strings": {
+    "english": {
+      "gambleFollowups": "perform the inputs as the icons appear on the screen. If the opponent presses the same button you used for the followups, Gamble of Darun ends",
+      "gambleFinisher": "perform the input as the ??? appear on the screen. If the opponent presses the same button you used for the followups, Gamble of Darun ends",
+      "meteorPartner": "requires Zangief as a partner"
+    },
+    "portuguese": {
+      "gambleFollowups": "Faça os comandos assim que os ícones aparecerem na tela. Se o oponente apertar o mesmo botão que você usou, o Gamble of Darun é encerrado",
+      "gambleFinisher": "Faça os comandos assim que o ??? aparecer na tela. Se o oponente apertar o mesmo botão que você usou, o Gamble of Darun é encerrado",
+      "meteorPartner": "só pode ser feito com Zangief de parceiro"
+    }
+  }
+}
