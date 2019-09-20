@@ -1,0 +1,101 @@
+{
+  "names": {
+    "default": {
+      "roman": "Garuda"
+    },
+    "japan": {
+      "roman": "Garuda",
+      "original": "ガルダ"
+    }
+  },
+  "images": {
+    "face": "garuda.webp"
+  },
+  "moves": {
+    "{normalThrows}": [
+      {
+        "name": "Satsuga",
+        "input": "[LP]+[LK]"
+      },
+      {
+        "name": "Shouki",
+        "input": ":b:+[LP]+[LK]"
+      },
+      {
+        "name": "Shuki",
+        "input": "{inAirAndClose}, :b: {or} :f:+[MP] {or} [HP] {or} [MK] {or} [HK]"
+      }
+    ],
+    "{uniqueAttacks}": [
+      {
+        "name": "Zanki",
+        "input": ":f:+[HP]"
+      },
+      {
+        "name": "Kyoja",
+        "input": ":f:+[HK]"
+      }
+    ],
+    "{specialMoves}": [
+      {
+        "name": "Shuga",
+        "input": ":qcf:+[P]"
+      },
+      {
+        "name": "Kizan",
+        "input": ":dp:+[P]"
+      },
+      {
+        "name": "Raiga",
+        "input": ":dp:+[K]"
+      },
+      {
+        "name": "Jazan",
+        "input": ":rdp:+[P]"
+      },
+      {
+        "name": "Gouga",
+        "input": ":hcf:+[K]"
+      },
+      {
+        "name": "Bu",
+        "input": ":dp:+[LP]+[MP]+[HP]"
+      },
+      {
+        "name": "Teishi",
+        "input": "{press} [P]",
+        "after": "Bu"
+      }
+    ],
+    "{superCombos}": [
+      {
+        "name": "Kiensho",
+        "input": ":qcf::qcf:+[P]"
+      },
+      {
+        "name": "Kienbu",
+        "input": ":qcb::qcb:+[P] ({use} {directional} {toChangeTrajectory}; {airOK})"
+      },
+      {
+        "name": "Soukondan",
+        "input": ":qcb::qcb:+[K] ({hold} [K] {toCharge})"
+      }
+    ],
+    "{neteorCombo}": [
+      {
+        "name": "Kyojinsenshu",
+        "input": ":qcb::qcb:+[LK]+[MK]+[HK]"
+      },
+      {
+        "name": "Daikyo Rasensho",
+        "input": ":qcf::qcf:+[K]",
+        "after": "Kyojinsenshu"
+      },
+      {
+        "name": "Daikyo Senpusho",
+        "input": "{inAir}, :qcb::qcb:+[P]",
+        "after": "Daikyo Rasensho"
+      }
+    ]
+  }
+}
