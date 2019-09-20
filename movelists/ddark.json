@@ -1,0 +1,80 @@
+{
+  "names": {
+    "default": {
+      "roman": "D. Dark"
+    },
+    "japan": {
+      "roman": "D. Dark",
+      "original": "ドクトリン・ダーク"
+    }
+  },
+  "images": {
+    "face": "ddark.webp"
+  },
+  "moves": {
+    "{normalThrows}": [
+      {
+        "name": "Death Moment",
+        "input": "[LP]+[LK]"
+      },
+      {
+        "name": "Dark Throw",
+        "input": ":b:+[LP]+[LK]"
+      }
+    ],
+    "{uniqueAttacks}": [
+      {
+        "name": "Knife Nightmare",
+        "input": ":f:+[MP]"
+      },
+      {
+        "name": "Death Spin Kick",
+        "input": ":f:+[MK]"
+      }
+    ],
+    "{specialMoves}": [
+      {
+        "name": "Dark Wire",
+        "input": ":qcf:+[P]"
+      },
+      {
+        "name": "Dark Spark",
+        "input": "{doNothing}",
+        "after": "Dark Wire"
+      },
+      {
+        "name": "Dark Hold",
+        "input": ":b:+[P]",
+        "after": "Dark Wire"
+      },
+      {
+        "name": "Dark Defender",
+        "input": ":dp:+[P]"
+      },
+      {
+        "name": "Ex-plosive",
+        "input": ":qcf:+[K]"
+      }
+    ],
+    "{superCombos}": [
+      {
+        "name": "Dark Trump",
+        "input": ":qcf::qcf:+[P]"
+      },
+      {
+        "name": "Dark Shackle",
+        "input": ":qcf::qcf:+[K]"
+      },
+      {
+        "name": "Ex-prominence",
+        "input": ":qcb::qcb:+[K]"
+      }
+    ],
+    "{meteorCombo}": [
+      {
+        "name": "Death Trap",
+        "input": ":qcb::qcb:+[LP]+[MP]+[HP]"
+      }
+    ]
+  }
+}
