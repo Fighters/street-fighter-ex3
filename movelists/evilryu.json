@@ -1,0 +1,95 @@
+{
+  "names": {
+    "default": {
+      "roman": "Evil Ryu"
+    },
+    "japan": {
+      "roman": "Evil Ryu",
+      "original": "殺意の波動に目覚めたリュウ"
+    }
+  },
+  "images": {
+    "face": "evilryu.webp"
+  },
+  "moves": {
+    "{normalThrows}": [
+      {
+        "name": "Shoulder Throw",
+        "input": "[LP]+[LK]"
+      },
+      {
+        "name": "Somersault Throw",
+        "input": ":b:+[LP]+[LK]"
+      }
+    ],
+    "{uniqueAttacks}": [
+      {
+        "name": "Senpukyaku",
+        "input": ":f:+[MK]"
+      },
+      {
+        "name": "Solar Plexus Strike",
+        "input": ":f:+[HP]"
+      }
+    ],
+    "{specialMoves}": [
+      {
+        "name": "Hadoken",
+        "input": ":qcf:+[P]"
+      },
+      {
+        "name": "Shakunetsu Hadoken",
+        "input": ":hcb:+[P]"
+      },
+      {
+        "name": "Shoryuken",
+        "input": ":dp:+[P]"
+      },
+      {
+        "name": "Tatsumaki Senpukyaku",
+        "input": ":qcb:+[K]"
+      },
+      {
+        "name": "Airborne Tatsumaki Senpukyaku",
+        "input": "{inAir}, :qcb:+[K]"
+      },
+      {
+        "name": "Ashura Senku",
+        "input": ":dp: {or} :rdp:+[LP]+[MP]+[HP] {or} [LK]+[MK]+[HK]"
+      }
+    ],
+    "{superCombos}": [
+      {
+        "name": "Shinku Hadoken",
+        "input": ":qcf::qcf:+[P]"
+      },
+      {
+        "name": "Messatsu Goshoryu",
+        "input": ":qcf::qcf:+[K]"
+      },
+      {
+        "name": "Shinku Tatsumaki Senpukyaku",
+        "input": ":qcb::qcb:+[K] ({airOK})"
+      }
+    ],
+    "{meteorCombos}": [
+      {
+        "name": "Denjin Hadoken",
+        "input": ":qcf::qcf:+[LP]+[MP]+[HP] ({hold} [LP]+[MP]+[HP] {and} {wiggleStick} {toCharge})"
+      },
+      {
+        "name": "Shun Goku Satsu",
+        "input": "[LP] > [LP] > :f: > [LK] > [HP]"
+      }
+    ]
+  },
+  "custom_strings": {
+    "english": {
+      "wiggleStick": "wiggle the joystick"
+    },
+
+    "portuguese": {
+      "wiggleStick": "gire o direcional"
+    }
+  }
+}
