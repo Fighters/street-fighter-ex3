@@ -1,0 +1,81 @@
+{
+  "names": {
+    "default": {
+      "roman": "Sagat"
+    },
+    "japan": {
+      "roman": "Sagat",
+      "original": "サガット"
+    }
+  },
+  "images": {
+    "face": "sagat.webp"
+  },
+  "moves": {
+    "{normalThrows}": [
+      {
+        "name": "Tiger Carry",
+        "input": "[LP]+[LK]"
+      },
+      {
+        "name": "Tiger Rage",
+        "input": ":b:+[LP]+[LK]"
+      }
+    ],
+    "{specialMoves}": [
+      {
+        "name": "Tiger Shot",
+        "input": ":qcf:+[P]"
+      },
+      {
+        "name": "Ground Tiger Shot",
+        "input": ":qcf:+[K]"
+      },
+      {
+        "name": "Tiger Blow",
+        "input": ":dp:+[P]"
+      },
+      {
+        "name": "Tiger Crush",
+        "input": ":dp:+[K]"
+      },
+      {
+        "name": "Tiger Fake",
+        "input": ":rdp:+[P]"
+      }
+    ],
+    "{superCombos}": [
+      {
+        "name": "Tiger Cannon",
+        "input": ":qcf::qcf:+[P]"
+      },
+      {
+        "name": "Ground Tiger Cannon",
+        "input": ":qcf::qcf:+[K]"
+      },
+      {
+        "name": "Tiger Genocide",
+        "input": ":qcb::qcb:+[P]"
+      },
+      {
+        "name": "Tiger Raid",
+        "input": ":qcb::qcb:+[K]"
+      }
+    ],
+    "{meteorCombo}": [
+      {
+        "name": "Tiger Storm",
+        "input": ":qcf::qcf:+[LP]+[MP]+[HP]",
+        "extraInfo": "{tigerStorm}"
+      }
+    ]
+  },
+  "custom_strings": {
+    "english": {
+      "tigerStorm": "{press} [P] up to 5 times with specific timing to increase damage"
+    },
+    "portuguese": {
+      "tigerStorm": "{press} [P] até 5 vezes dentro de um timing específico para aumentar o dano"
+    }
+  }
+}
