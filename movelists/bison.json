@@ -9,7 +9,7 @@
     }
   },
   "images": {
-    "face": "bison.webp"
+    "face": "mbison.webp"
   },
   "moves": {
     "{normalThrows}": [
