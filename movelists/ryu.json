@@ -1,0 +1,70 @@
+{
+  "names": {
+    "default": {
+      "roman": "Ryu"
+    },
+    "japan": {
+      "roman": "Ryu",
+      "original": "リュウ"
+    }
+  },
+  "images": {
+    "face": "ryu.webp"
+  },
+  "moves": {
+    "{normalThrows}": [
+      {
+        "name": "Shoulder Throw",
+        "input": "[LP]+[LK]"
+      },
+      {
+        "name": "Somersault Throw",
+        "input": ":b:+[LP]+[LK]"
+      }
+    ],
+    "{uniqueAttacks}": [
+      {
+        "name": "Senpukyaku",
+        "input": ":f:+[MK]"
+      },
+      {
+        "name": "Solar Plexus Strike",
+        "input": ":f:+[HP]"
+      }
+    ],
+    "{specialMoves}": [
+      {
+        "name": "Hadoken",
+        "input": ":qcf:+[P]"
+      },
+      {
+        "name": "Shakunetsu Hadoken",
+        "input": ":hcb:+[P]"
+      },
+      {
+        "name": "Shoryuken",
+        "input": ":dp:+[P]"
+      },
+      {
+        "name": "Tatsumaki Senpukyaku",
+        "input": ":qcb:+[K], {then} :b:+[K] ({upTo3x})"
+      }
+    ],
+    "{superCombos}": [
+      {
+        "name": "Shinku Hadoken",
+        "input": ":qcf::qcf:+[P]"
+      },
+      {
+        "name": "Shinku Tatsumaki Senpukyaku",
+        "input": ":qcb::qcb:+[K] ({airOK})"
+      }
+    ],
+    "{meteorCombo}": [
+      {
+        "name": "Shin Shoryuken",
+        "input": ":qcf::qcf:+[LK]+[MK]+[HK]"
+      }
+    ]
+  }
+}
