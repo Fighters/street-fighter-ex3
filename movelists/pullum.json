@@ -1,0 +1,99 @@
+{
+  "names": {
+    "default": {
+      "roman": "Pullum"
+    },
+    "japan": {
+      "roman": "Pullum",
+      "original": "プルム"
+    }
+  },
+  "images": {
+    "face": "pullum.webp"
+  },
+  "moves": {
+    "{normalThrows}": [
+      {
+        "name": "Odin's Fate",
+        "input": "[LP]+[LK]"
+      },
+      {
+        "name": "Neck Factor",
+        "input": ":b:+[LP]+[LK]"
+      },
+      {
+        "name": "Dancing Wind",
+        "input": "{inAirAndClose}, :b: {or} :f:+[MP] {or} [HP]"
+      }
+    ],
+    "{uniqueAttacks}": [
+      {
+        "name": "Alacer Wrist",
+        "input": ":f:+[MP]"
+      },
+      {
+        "name": "Alacer Wrist (Air)",
+        "input": "{inAir}, :d:+[MP]"
+      },
+      {
+        "name": "Reverse Ankle",
+        "input": "{inAir}, :b:+[MK]"
+      }
+    ],
+    "{specialMoves}": [
+      {
+        "name": "Drill Purrus",
+        "input": ":qcf:+[K]"
+      },
+      {
+        "name": "Drill Purrus (Air)",
+        "input": "{inAir}, :qcf:+[K]"
+      },
+      {
+        "name": "Purim Kick",
+        "input": ":dp:+[P]"
+      },
+      {
+        "name": "Ten'el Kick",
+        "input": ":qcb:+[K]"
+      },
+      {
+        "name": "Femina Wind",
+        "input": "{inAir}, :qcb:+[P]"
+      }
+    ],
+    "{superCombos}": [
+      {
+        "name": "Resar Cana",
+        "input": ":qcf::qcf:+[K]"
+      },
+      {
+        "name": "Praec Larum",
+        "input": ":qcb::qcb:+[K]"
+      },
+      {
+        "name": "Kind Wind",
+        "input": "{inAir}, :qcf::qcf:+[P]"
+      }
+    ],
+    "{meteorCombo}": [
+      {
+        "name": "Gradus Par",
+        "input": ":qcf::qcf:+[LP]+[MP]+[HP]"
+      },
+      {
+        "name": "Meteor Tag Combo",
+        "input": ":qcb::qcb:+[LP]+[MP]+[HP]",
+        "extraInfo": "{meteorPartner}"
+      }
+    ]
+  },
+  "custom_strings": {
+    "english": {
+      "meteorPartner": "requires Darun as a partner"
+    },
+    "portuguese": {
+      "meteorPartner": "só pode ser feito com Darun de parceiro"
+    }
+  }
+}
