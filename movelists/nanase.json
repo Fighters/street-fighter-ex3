@@ -1,0 +1,107 @@
+{
+  "names": {
+    "default": {
+      "roman": "Nanase"
+    },
+    "japan": {
+      "roman": "Nanase",
+      "original": "七瀬"
+    }
+  },
+  "images": {
+    "face": "nanase.webp"
+  },
+  "moves": {
+    "{normalThrows}": [
+      {
+        "name": "Kyaku",
+        "input": "{close}, :b: {or} :f:+[MP] {or} [HP]"
+      },
+      {
+        "name": "Keishukou",
+        "input": "{close}, :b: {or} :f:+[MK] {or} [HK]"
+      }
+    ],
+    "{uniqueAttacks}": [
+      {
+        "name": "Touchuhoh",
+        "input": ":f:+[MP]"
+      },
+      {
+        "name": "Rakushichigeki",
+        "input": "{inAir}, :d:+[MK]"
+      }
+    ],
+    "{specialMoves}": [
+      {
+        "name": "Sanrenkon",
+        "input": ":qcf:+[P], {then} :f:+[P] ({upTo2x}) {or} :u:+[P]"
+      },
+      {
+        "name": "Tenshokon",
+        "input": ":dp:+[P]"
+      },
+      {
+        "name": "Kasumioroshi",
+        "input": ":qcb:+[K], {then} {press} [K] ({upTo2x})"
+      },
+      {
+        "name": "Gekkyobotan",
+        "input": ":rdp:+[P] ({hold} [P] {whenHit} {toChangeAttack})"
+      },
+      {
+        "name": "Ryusui",
+        "input": "{close}, :360:+[P]"
+      }
+    ],
+    "{superCombos}": [
+      {
+        "name": "Izayoi Rekkon",
+        "input": ":qcf::qcf:+[P]"
+      },
+      {
+        "name": "Yayoi Tokongi",
+        "input": ":qcb::qcb:+[P] ({airOK})"
+      },
+      {
+        "name": "Meigetsu",
+        "input": "[LP]+[MP]+[HP]",
+        "after": "Yayoi Tokongi"
+      },
+      {
+        "name": "Ariake",
+        "input": "[LK]+[MK]+[HK]",
+        "after": "Yayoi Tokongi"
+      },
+      {
+        "name": "Ariake (Return)",
+        "input": ":qcb:+[P]",
+        "after": "Ariake"
+      }
+    ],
+    "{meteorCombo}": [
+      {
+        "name": "Machiyoi Tenkyugeki",
+        "input": "[LP] > [LP] > :f: > [LK] > [HP]"
+      },
+      {
+        "name": "Meteor Tag Combo",
+        "input": "[LP] > [LP] > :b: > [LK] > [HP]",
+        "extraInfo": "{meteorPartner}"
+      }
+    ]
+  },
+  "custom_strings": {
+    "english": 
+    {
+      "whenHit": "when hit",
+      "toChangeAttack": "to change the attack",
+      "meteorPartner": "requires Hokuto as a partner"
+    },
+    "portuguese": {
+      "whenHit": "ao ser acertado",
+      "toChangeAttack": "para alterar o ataque",
+      "meteorPartner": "só pode ser feito com Hokuto de parceira"
+    }
+  }
+}
