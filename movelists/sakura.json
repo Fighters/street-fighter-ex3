@@ -1,0 +1,85 @@
+{
+  "names": {
+    "default": {
+      "roman": "Sakura"
+    },
+    "japan": {
+      "roman": "Sakura",
+      "original": "さくら"
+    }
+  },
+  "images": {
+    "face": "sakura.webp"
+  },
+  "moves": {
+    "{normalThrows}": [
+      {
+        "name": "Sakura-Jime",
+        "input": "[LP]+[LK]"
+      },
+      {
+        "name": "Sailor Shoot",
+        "input": ":b:+[LP]+[LK]"
+      }
+    ],
+    "{specialMoves}": [
+      {
+        "name": "Hadoken",
+        "input": ":qcf:+[P] ({tapPunch} {toCharge})"
+      },
+      {
+        "name": "Shouoken",
+        "input": ":dp:+[P]"
+      },
+      {
+        "name": "Shunpukyaku",
+        "input": ":qcb:+[K]"
+      },
+      {
+        "name": "Taunt",
+        "input": ":360:+[P]"
+      }
+    ],
+    "{superCombos}": [
+      {
+        "name": "Shinku Hadoken",
+        "input": ":qcf::qcf:+[P]"
+      },
+      {
+        "name": "Midare Zakura",
+        "input": ":qcf::qcf:+[K]"
+      },
+      {
+        "name": "Haru Ichiban",
+        "input": ":qcb::qcb:+[K]"
+      },
+      {
+        "name": "Shun Goku Satsu",
+        "input": "[LP] > [LP] > :f: > [LK] > [HP]"
+      }
+    ],
+    "{meteorCombos}": [
+      {
+        "name": "Nekketsu Hadoken",
+        "input": ":qcf::qcf:+[LP]+[MP]+[HP]"
+      },
+      {
+        "name": "Genki Ichiban",
+        "input": ":360:+[LP]+[MP]+[HP]"
+      },
+      {
+        "name": "Meteor Tag Combo",
+        "input": "[LP] > [LP] > :b: > [LK] > [HP]",
+        "extraInfo": "{meteorPartner}"
+      }
+    ]
+  },
+  "custom_strings": {
+    "english": {
+      "meteorPartner": "requires Ryu as a partner"
+    },
+    "portuguese": {
+      "meteorPartner": "só pode ser feito com Ryu de parceiro"
+    }
+  }
+}
