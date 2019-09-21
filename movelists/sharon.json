@@ -1,0 +1,116 @@
+{
+  "names": {
+    "default": {
+      "roman": "Sharon"
+    },
+    "japan": {
+      "roman": "Sharon",
+      "original": "シャロン"
+    }
+  },
+  "images": {
+    "face": "sharon.webp"
+  },
+  "moves": {
+    "{normalThrows}": [
+      {
+        "name": "Blade Mount",
+        "input": "[LP]+[LK]"
+      },
+      {
+        "name": "Blade Choke",
+        "input": ":b:+[LP]+[LK]"
+      },
+      {
+        "name": "Flying Neck Drop",
+        "input": "{inAirAndClose}, :b: {or} :f:+[MP] {or} [HP]"
+      }
+    ],
+    "{uniqueAttacks}": [
+      {
+        "name": "Step Combo Punch",
+        "input": ":f:+[MP]"
+      },
+      {
+        "name": "Step Combo Kick",
+        "input": ":f:+[MK]"
+      },
+      {
+        "name": "Crush Punch",
+        "input": ":f:+[HP]"
+      },
+      {
+        "name": "Sliding Sweeper",
+        "input": ":df:+[HK]"
+      }
+    ],
+    "{specialMoves}": [
+      {
+        "name": "Gale Hammer Punch",
+        "input": ":qcf:+[P]"
+      },
+      {
+        "name": "Gale Hammer Punch 2nd",
+        "input": ":f:+[P]",
+        "after": "Gale Hammer Punch"
+      },
+      {
+        "name": "Half Moon Kick",
+        "input": ":db:+[K]",
+        "after": "Gale Hammer Punch"
+      },
+      {
+        "name": "Bermuda Symphony",
+        "input": ":df:+[K]",
+        "after": "Gale Hammer Punch"
+      },
+      {
+        "name": "Half Moon Kick",
+        "input": ":qcb:+[K]"
+      },
+      {
+        "name": "Prisoner Scissors",
+        "input": "{close}, :d:+[K]",
+        "after": "Half Moon Kick"
+      },
+      {
+        "name": "Bermuda Symphony",
+        "input": ":dp:+[K]"
+      },
+      {
+        "name": "Crimson Terror",
+        "input": "{close}, :360:+[P]"
+      }
+    ],
+    "{superCombos}": [
+      {
+        "name": "Shuttle Combination",
+        "input": ":qcb::qcb:+[P]"
+      },
+      {
+        "name": "Sharon Special",
+        "input": ":qcf::qcf:+[K]"
+      },
+      {
+        "name": "Cancel",
+        "input": ":qcb:+[K]",
+        "after": "Sharon Special"
+      },
+      {
+        "name": "Load",
+        "input": ":qcf::qcf:+[P]"
+      },
+      {
+        "name": "Hellfire",
+        "input": ":qcf::qcf:+[P]",
+        "after": "Load"
+      }
+    ],
+    "{meteorCombo}": [
+      {
+        "name": "Assault Rifle",
+        "input": ":qcf::qcf:+[LP]+[MP]+[HP]"
+      }
+    ]
+  }
+}
