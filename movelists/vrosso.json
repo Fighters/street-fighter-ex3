@@ -1,0 +1,92 @@
+{
+  "names": {
+    "default": {
+      "roman": "V. Rosso"
+    },
+    "japan": {
+      "roman": "V. Rosso",
+      "original": "ヴルカーノ・ロッソ"
+    }
+  },
+  "images": {
+    "face": "vrosso.webp"
+  },
+  "moves": {
+    "{normalThrows}": [
+      {
+        "name": "Digestivo",
+        "input": "[LP]+[LK]"
+      }
+    ],
+    "{specialMoves}": [
+      {
+        "name": "Le Ali Di Aero",
+        "input": "[LP]+[MP]+[HP]"
+      },
+      {
+        "name": "Rage of Etna",
+        "input": "[K]",
+        "after": "Le Ali Di Aero"
+      },
+      {
+        "name": "Regalo",
+        "input": "[LK]+[MK]+[HK]"
+      },
+      {
+        "name": "Rage of Vesuvio",
+        "input": ":qcf:+[P]"
+      },
+      {
+        "name": "Rage of Vesuvio 2nd",
+        "input": ":f:+[P]",
+        "after": "Rage of Vesuvio"
+      },
+      {
+        "name": "Rage of Vesuvio 3rd",
+        "input": ":f:+[K]",
+        "after": "Rage of Vesuvio"
+      },
+      {
+        "name": "Vulcanus",
+        "input": ":qcb:+[P]"
+      },
+      {
+        "name": "Umiliazione Di Canossa",
+        "input": ":qcb:+[K]",
+        "extraInfo": "{canossaInfo}"
+      },
+      {
+        "name": "Sciara Del Fuoco",
+        "input": ":qcf:+[K]"
+      }
+    ],
+    "{superCombos}": [
+      {
+        "name": "Ponte Dei Sospiri",
+        "input": ":qcf::qcf:+[P]"
+      },
+      {
+        "name": "Torre Pendente Di Pisa",
+        "input": ":qcb::qcb:+[P]"
+      },
+      {
+        "name": "Accelerando",
+        "input": ":qcb::qcb:+[K]"
+      }
+    ],
+    "{meteorCombo}": [
+      {
+        "name": "Quattro Panorami",
+        "input": ":qcf::qcf:+[LK]+[MK]+[HK]"
+      }
+    ]
+  },
+  "custom_strings": {
+    "english": {
+      "canossaInfo": "can be done after Rage of Vesuvio or Rage of Vesuvio 2nd"
+    },
+    "portuguese": {
+      "canossaInfo": "pode ser feito durante Rage of Vesuvio ou Rage of Vesuvio 2nd"
+    }
+  }
+}
