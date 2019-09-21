@@ -1,0 +1,73 @@
+{
+  "names": {
+    "default": {
+      "roman": "Bison II"
+    },
+    "japan": {
+      "roman": "Vega II",
+      "original": "ベガ II"
+    }
+  },
+  "images": {
+    "face": "mbison2.webp"
+  },
+  "moves": {
+    "{normalThrows}": [
+      {
+        "name": "Deadly Throw",
+        "input": "[LP]+[LK]"
+      },
+      {
+        "name": "Death Tower",
+        "input": ":b:+[LP]+[LK]"
+      }
+    ],
+    "{specialMoves}": [
+      {
+        "name": "Psycho Crusher",
+        "input": "{charge} :b: :f:+[P]"
+      },
+      {
+        "name": "Double Knee Press",
+        "input": "{charge} :b: :f:+[K]"
+      },
+      {
+        "name": "Head Press",
+        "input": "{charge} :d: :u:+[K] ({use} :b: {or} :f: {toChangeTrajectory} {onHit})"
+      },
+      {
+        "name": "Somersault Skull Diver",
+        "input": "[P]",
+        "after": "Head Press"
+      },
+      {
+        "name": "Bison Warp",
+        "input": ":dp: {or} :rdp:+[LP]+[MP]+[HP] {or} [LK]+[MK]+[HK]"
+      }
+    ],
+    "{superCombo}": [
+      {
+        "name": "Psycho Cannon R",
+        "input": "{charge} :b: :f::b::f:+[P] ({hold} [P] {toCharge})"
+      },
+      {
+        "name": "Psycho Cannon G",
+        "input": ":qcb::qcb:+[P] ({hold} [P] {toCharge})"
+      },
+      {
+        "name": "Psycho Cannon B",
+        "input": ":qcb::qcb: {or} :qcf::qcf:+[K]"
+      },
+      {
+        "name": "Knee Press Nightmare",
+        "input": "{charge} :b: :f::b::f:+[K]"
+      }
+    ],
+    "{meteorCombo}": [
+      {
+        "name": "Psycho Break Smasher",
+        "input": "{charge} :b: :f::b::f:+[LP]+[MP]+[HP]"
+      }
+    ]
+  }
+}
