@@ -1,0 +1,157 @@
+{
+  "names": {
+    "default": {
+      "roman": "Skullomania"
+    },
+    "japan": {
+      "roman": "Skullomania",
+      "original": "スカロマニア"
+    }
+  },
+  "images": {
+    "face": "skullomania.webp"
+  },
+  "moves": {
+    "{normalThrows}": [
+      {
+        "name": "Skullo Stunt",
+        "input": "[LP]+[LK]"
+      },
+      {
+        "name": "Skullo Space",
+        "input": "{inAirAndClose}, :b: {or} :f:+[MP] {or} [HP]"
+      }
+    ],
+    "{uniqueAttacks}": [
+      {
+        "name": "Step In Upper",
+        "input": ":f:+[MP]"
+      },
+      {
+        "name": "Dangerous Heel",
+        "input": ":f:+[MK]"
+      },
+      {
+        "name": "Skullo Back Flip",
+        "input": ":b::b:"
+      },
+      {
+        "name": "Skullo Dash",
+        "input": ":f::f: ({hold} :b: {toCancel})"
+      },
+      {
+        "name": "Skullo Tackle",
+        "input": "{doNothing}",
+        "after": "Skullo Dash"
+      },
+      {
+        "name": "Crusher Shortcut",
+        "input": ":df:+[P]",
+        "after": "Skullo Dash"
+      },
+      {
+        "name": "Slider Shortcut",
+        "input": ":df:+[K]",
+        "after": "Skullo Dash"
+      },
+      {
+        "name": "Head Shortcut",
+        "input": ":u:+[P]",
+        "after": "Skullo Dash"
+      },
+      {
+        "name": "Head Shortcut",
+        "input": "[P]",
+        "after": "Skullo Dash"
+      },
+      {
+        "name": "Tkachyov Shortcut",
+        "input": ":u:+[K]",
+        "after": "Skullo Dash"
+      },
+      {
+        "name": "Shock Shortcut",
+        "input": ":d:+[P]",
+        "after": "Skullo Dash"
+      },
+      {
+        "name": "Skullo Shock",
+        "input": ":hcb::ub::u:+[P]"
+      }
+    ],
+    "{specialMoves}": [
+      {
+        "name": "Skullo Crusher",
+        "input": ":qcf:+[P]"
+      },
+      {
+        "name": "Skullo Slider",
+        "input": ":qcf:+[K]"
+      },
+      {
+        "name": "Skullo Head",
+        "input": ":dp:+[P]"
+      },
+      {
+        "name": "Skullo Dive",
+        "input": "[P]",
+        "after": "Skullo Head"
+      },
+      {
+        "name": "Skullo Tkachyov",
+        "input": ":rdp:+[K]"
+      }
+    ],
+    "{superCombos}": [
+      {
+        "name": "Super Skullo Crusher",
+        "input": ":qcf::qcf:+[P] ({airOK})"
+      },
+      {
+        "name": "Super Skullo Slider",
+        "input": ":qcf::qcf:+[K]"
+      },
+      {
+        "name": "Skullo Ball",
+        "input": ":qcb::qcb:+[P]"
+      },
+      {
+        "name": "Skullo Energy",
+        "input": ":qcb::qcb:+[K]"
+      },
+      {
+        "name": "Skullo Dream",
+        "input": "[LP] > [LP] > :d: > [LK] > [HP]"
+      },
+      {
+        "name": "Skullo Dream Final 95 Alternate",
+        "input": "[LP] > [LP] > :d: > [LK] > [HP] {then} {hold} :d:+[MP]+[MK]",
+        "extraInfo": "{hold} :d:+[MP]+[MK] {untilSkulloDreamHits}"
+      },
+      {
+        "name": "New Skullo Dream",
+        "input": "[LP] > [LP] > :f: > [LK] > [HP]"
+      },
+      {
+        "name": "True Skullo Dream",
+        "input": "[LP] > [LP] > :b: > [LK] > [HP]"
+      }
+    ],
+    "{meteorCombo}": [
+      {
+        "name": "Super Skullo Energy",
+        "input": ":qcb::qcb:+[LK]+[MK]+[HK]"
+      }
+    ]
+  },
+  "custom_strings": {
+    "english": {
+      "untilSkulloDreamHits": "until Skullo Dream hits",
+      "skulloDreamDirections": "while tapping the directions"
+    },
+    "portuguese": {
+      "untilSkulloDreamHits": "até acertar o Skullo Dream acertar o oponente",
+      "skulloDreamDirections": "enquanto faz a sequência com o direcional"
+    }
+  }
+}
