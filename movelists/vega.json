@@ -1,0 +1,99 @@
+{
+  "names": {
+    "default": {
+      "roman": "Vega"
+    },
+    "japan": {
+      "roman": "Balrog",
+      "original": "バルログ"
+    }
+  },
+  "images": {
+    "face": "vega.webp"
+  },
+  "moves": {
+    "{normalThrows}": [
+      {
+        "name": "Wall Smash",
+        "input": "[LP]+[LK]"
+      },
+      {
+        "name": "German Suplex",
+        "input": ":b:+[LP]+[LK]"
+      },
+      {
+        "name": "Whirlwind Suplex",
+        "input": "{inAirAndClose} :b: {or} :f:+[MP] {or} [HP]"
+      }
+    ],
+    "{uniqueAttacks}": [
+      {
+        "name": "Backslash",
+        "input": "[LK]+[MK]+[HK]"
+      }
+    ],
+    "{specialMoves}": [
+      {
+        "name": "Rolling Crystal Flash",
+        "input": "{charge} :b: :f:+[P]"
+      },
+      {
+        "name": "Sky High Claw",
+        "input": "{charge} :d: :u:+[P]"
+      },
+      {
+        "name": "Flying Barcelona",
+        "input": "{charge} :d: :u:+[K]"
+      },
+      {
+        "name": "Flying Barcelona Attack",
+        "input": "[P]",
+        "after": "Flying Barcelona"
+      },
+      {
+        "name": "Izuna Drop",
+        "input": "{close} :b: {or} :f:+[P]",
+        "after": "Flying Barcelona"
+      },
+      {
+        "name": "Attaching Claw",
+        "input": ":dp:+[P]"
+      }
+    ],
+    "{superCombos}": [
+      {
+        "name": "Ground Crystal Flash",
+        "input": "{charge} :b: :f::b:f:+[P]"
+      },
+      {
+        "name": "Scarlet Terror",
+        "input": "{charge} :b: :f::b:f:+[K]"
+      },
+      {
+        "name": "Whirlwind Izuna Drop",
+        "input": ":hcf:+[P]",
+        "after": "Scarlet Terror"
+      },
+      {
+        "name": "Sky High Illusion",
+        "input": "{charge} :db: :df::db::uf:+[P]"
+      }
+    ],
+    "{meteorCombo}": [
+      {
+        "name": "Flying Barcelona Special",
+        "input": "{charge} :db: :df::db::uf:+[K]"
+      },
+      {
+        "name": "Flying Barcelona Special Attack",
+        "input": "[P]",
+        "after": "Flying Barcelona Special"
+      },
+      {
+        "name": "Rolling Izuna Drop",
+        "input": "{close} :b: {or} :f:+[P]",
+        "after": "Flying Barcelona Special"
+      }
+    ]
+  }
+}
