@@ -1,0 +1,90 @@
+{
+  "names": {
+    "default": {
+      "roman": "Ken"
+    },
+    "japan": {
+      "roman": "Ken",
+      "original": "ケン"
+    }
+  },
+  "images": {
+    "face": "ken.webp"
+  },
+  "moves": {
+    "{normalThrows}": [
+      {
+        "name": "Shoulder Throw",
+        "input": "[LP]+[LK]"
+      },
+      {
+        "name": "Hell Wheel",
+        "input": ":b:+[LP]+[LK]"
+      },
+      {
+        "name": "Jigoku Fusha",
+        "input": "{inAirAndClose}, :b: {or} :f:+[MP] {or} [HP]"
+      }
+    ],
+    "{specialMoves}": [
+      {
+        "name": "Hadoken",
+        "input": ":qcf:+[P]"
+      },
+      {
+        "name": "Shoryuken",
+        "input": ":dp:+[P]"
+      },
+      {
+        "name": "Tatsumaki Senpukyaku",
+        "input": ":qcb:+[K]"
+      },
+      {
+        "name": "Airborne Tatsumaki Senpukyaku",
+        "input": "{inAir}, :qcb:+[K]"
+      },
+      {
+        "name": "Zenpo Tenshin",
+        "input": ":qcb:+[P]"
+      }
+    ],
+    "{superCombos}": [
+      {
+        "name": "Shoryureppa",
+        "input": ":qcf::d::df:+[P]"
+      },
+      {
+        "name": "Shinryuken",
+        "input": ":qcf::d::df:+[K] ({tapPunch} {forMoreHits})"
+      },
+      {
+        "name": "Shippu Jinraikyaku",
+        "input": ":qcb::qcb:+[K]"
+      },
+      {
+        "name": "Cancel",
+        "input": ":qcb:+[K]",
+        "after": "Shippu Jinraikyaku"
+      }
+    ],
+    "{meteorCombo}": [
+      {
+        "name": "Kuzuryureppa",
+        "input": ":qcb::qcb:+[LK]+[MK]+[HK]"
+      },
+      {
+        "name": "Meteor Tag Combo",
+        "input": ":qcb::qcb:+[LP]+[MP]+[HP]",
+        "extraInfo": "{meteorPartner}"
+      }
+    ]
+  },
+  "custom_strings": {
+    "english": {
+      "meteorPartner": "requires Ryu as a partner"
+    },
+    "portuguese": {
+      "meteorPartner": "só pode ser feito com Ryu de parceiro"
+    }
+  }
+}
