@@ -1,0 +1,94 @@
+{
+  "names": {
+    "default": {
+      "roman": "Shadowgeist"
+    },
+    "japan": {
+      "roman": "Shadowgeist",
+      "original": "シャドウガイスト"
+    }
+  },
+  "images": {
+    "face": "shadowgeist.webp"
+  },
+  "moves": {
+    "{normalThrows}": [
+      {
+        "name": "Death Stunt",
+        "input": "[LP]+[LK]"
+      },
+      {
+        "name": "Death Space",
+        "input": "{inAirAndClose}, :b: {or} :f:+[MP] {or} [HP]"
+      }
+    ],
+    "{uniqueAttacks}": [
+      {
+        "name": "Step In Upper",
+        "input": ":f:+[MP]"
+      },
+      {
+        "name": "Death Heel",
+        "input": ":f:+[MK]"
+      },
+      {
+        "name": "Death Escape",
+        "input": ":b::b:"
+      }
+    ],
+    "{specialMoves}": [
+      {
+        "name": "Death Crusher",
+        "input": ":qcf:+[P]"
+      },
+      {
+        "name": "Death Break",
+        "input": ":qcf:+[K]"
+      },
+      {
+        "name": "Death Press",
+        "input": ":rdp:+[K]"
+      },
+      {
+        "name": "Death Sword Kick",
+        "input": "{inAir}, :qcf:+[K]"
+      },
+      {
+        "name": "Death Flash",
+        "input": "{inAir}, :qcb:+[K]"
+      },
+      {
+        "name": "Death Shock",
+        "input": ":hcb::ub::u:+[P]"
+      }
+    ],
+    "{superCombos}": [
+      {
+        "name": "Death Government",
+        "input": ":qcf::qcf:+[P]"
+      },
+      {
+        "name": "Super Death Crusher",
+        "input": ":qcf::qcf:+[K] ({airOK})"
+      },
+      {
+        "name": "Death Energy",
+        "input": ":qcb::qcb:+[K]"
+      },
+      {
+        "name": "Death Dream",
+        "input": "[LP] > [LP] > :f: > [LK] > [HP]"
+      },
+      {
+        "name": "Death Dream (Air)",
+        "input": "{inAirAndClose}, :360::360:+[P]"
+      }
+    ],
+    "{meteorCombo}": [
+      {
+        "name": "Super Death Energy",
+        "input": ":qcb::qcb:+[LP]+[MP]+[HP]"
+      }
+    ]
+  }
+}
