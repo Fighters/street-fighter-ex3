@@ -60,9 +60,9 @@
         "after": "Skullo Dash"
       },
       {
-        "name": "Head Shortcut",
-        "input": "[P]",
-        "after": "Skullo Dash"
+        "name": "Dive Shortcut",
+        "input": "{press} [P]",
+        "after": "Head Shortcut"
       },
       {
         "name": "Tkachyov Shortcut",
@@ -94,7 +94,7 @@
       },
       {
         "name": "Skullo Dive",
-        "input": "[P]",
+        "input": "{press} [P]",
         "after": "Skullo Head"
       },
       {
