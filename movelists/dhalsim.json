@@ -29,11 +29,11 @@
       },
       {
         "name": "Yoga Mummy",
-        "input": "{inAir} :d:+[HP]"
+        "input": "{inAir}, :d:+[HP]"
       },
       {
         "name": "Drill Kick",
-        "input": "{inAir} :d:+[K]"
+        "input": "{inAir}, :d:+[K]"
       }
     ],
     "{specialMoves}": [
@@ -63,8 +63,12 @@
         "input": ":qcf:+{hold} [LK]+[MK]+[HK]"
       },
       {
-        "name": "Yoga Teleport",
-        "input": ":dp: {or} :rdp:+[LP]+[MP]+[HP] {or} [LK]+[MK]+[HK]"
+        "name": "Yoga Teleport (Forward)",
+        "input": ":dp:+[LP]+[MP]+[HP] {or} [LK]+[MK]+[HK]"
+      },
+      {
+        "name": "Yoga Teleport (Back)",
+        "input": ":rdp:+[LP]+[MP]+[HP] {or} [LK]+[MK]+[HK]"
       },
       {
         "name": "Yoga Float",
