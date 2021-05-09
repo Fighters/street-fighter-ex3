@@ -49,11 +49,11 @@
       },
       {
         "name": "Daikaku",
-        "input": "[LP]+[MP]+[HP]"
+        "input": "{press} [LP]+[MP]+[HP]"
       },
       {
         "name": "Joju",
-        "input": "[LK]+[MK]+[HK]",
+        "input": "{press} [LK]+[MK]+[HK]",
         "after": "Daikaku"
       }
     ],
