@@ -23,7 +23,7 @@
       },
       {
         "name": "Flying Buster Drop",
-        "input": "{inAirAndClose} :b: {or} :f:+[MP] {or} [HP]"
+        "input": "{inAirAndClose}, :b: {or} :f:+[MP] {or} [HP]"
       }
     ],
     "{uniqueAttacks}": [
