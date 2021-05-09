@@ -65,12 +65,12 @@
       },
       {
         "name": "Meigetsu",
-        "input": "[LP]+[MP]+[HP]",
+        "input": "{press} [LP]+[MP]+[HP]",
         "after": "Yayoi Tokongi"
       },
       {
         "name": "Ariake",
-        "input": "[LK]+[MK]+[HK]",
+        "input": "{press} [LK]+[MK]+[HK]",
         "after": "Yayoi Tokongi"
       },
       {
