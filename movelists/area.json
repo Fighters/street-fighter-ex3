@@ -61,7 +61,7 @@
       },
       {
         "name": "Download",
-        "input": "[LP]+[MP]+[HP] ({hold} [LP]+[MP]+[HP] {toControlDistance})",
+        "input": "{press} [LP]+[MP]+[HP] ({hold} [LP]+[MP]+[HP] {toControlDistance})",
         "extraInfo": "{onlyWithArm}"
       },
       {
@@ -71,7 +71,7 @@
       },
       {
         "name": "Thunder Break",
-        "input": "[LP]+[MP]+[HP]",
+        "input": "{press} [LP]+[MP]+[HP]",
         "after": "Humming Rush"
       },
       {
